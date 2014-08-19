@@ -1,5 +1,7 @@
 #!/bin/bash
 # Start
+# Stop network manager if he is already running
+sudo stop network-manager
 # Configure IP address for WLAN
 sudo ifconfig wlan0 192.168.150.1
 # Start DHCP/DNS server
