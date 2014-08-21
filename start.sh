@@ -20,3 +20,4 @@ sudo sysctl net.ipv4.ip_forward=0
 # Disable DHCP/DNS server
 sudo service dnsmasq stop
 sudo service hostapd stop
+#change1
